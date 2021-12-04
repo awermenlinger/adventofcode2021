@@ -19,3 +19,4 @@ depths_window_1[0] = depths_window[0]
 delta = depths_window - depths_window_1
 total_positives =len(delta[delta > 0])
 print("Total positives, 3 increment: {}".format(total_positives))
+print("test")
