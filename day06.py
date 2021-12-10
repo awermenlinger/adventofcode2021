@@ -19,7 +19,7 @@ print("Part 1: ", len(fishes))
 # Learned the wonders of defaultdict, but solution below is not mine.
 from collections import defaultdict
 
-data = open('files\day6.txt', 'r').read().rstrip().split(',')
+data = open('files\day06.txt', 'r').read().rstrip().split(',')
 data = [int(fish) for fish in data]
 
 fishes_dict = defaultdict(int)

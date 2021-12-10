@@ -1,5 +1,5 @@
 import numpy as np
-lines = open('files\day9.txt', 'r').read().rstrip().split('\n')
+lines = open('files\day09.txt', 'r').read().rstrip().split('\n')
 smoke_basin = np.array([[int(i) for i in line] for line in lines])
 
 def get_window_max(coords, arr):

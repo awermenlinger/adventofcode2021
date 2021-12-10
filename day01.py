@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from numpy.lib.stride_tricks import sliding_window_view
 
-depths = open('files\day1.txt', 'r').read().rstrip().split('\n')
+depths = open('files\day01.txt', 'r').read().rstrip().split('\n')
 depths = [int(i) for i in depths]
 depths = np.array(depths)
 depths_1 = np.roll(depths, 1)

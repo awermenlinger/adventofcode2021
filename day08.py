@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.core.numeric import identity
 
-with open("files\day8.txt") as f:
+with open("files\day08.txt") as f:
     lines = [x.strip() for x in f]
 
 inputs = [x.split(" ") for x in [line.split(" | ")[0] for line in lines]]

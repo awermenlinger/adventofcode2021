@@ -1,6 +1,6 @@
 import numpy as np
 
-with open('files/day4.txt', 'r') as f:
+with open('files/day04.txt', 'r') as f:
     data = f.read().split('\n\n')
 
 nbs_drawn = [int(i) for i in data[0].split(',')]

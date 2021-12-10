@@ -1,7 +1,7 @@
 horizontal = 0
 depth = 0
 
-moves = open('files\day2.txt', 'r').read().rstrip().split('\n')
+moves = open('files\day02.txt', 'r').read().rstrip().split('\n')
 
 for move in moves:
    if move[0] == "f": horizontal += int(move[-1])

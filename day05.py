@@ -2,7 +2,7 @@ import numpy as np
 #data = [[[int(y) for y in x.split(',')] for x in line.strip('\n').split(' -> ')] for line in
 #        fileinput.input("../../input/day5")]
 
-lines = open('files\day5.txt', 'r').read().rstrip().split('\n')
+lines = open('files\day05.txt', 'r').read().rstrip().split('\n')
 
 lines = [line.split(' -> ') for line in lines]
 lines = [[l.split(',') for l in line] for line in lines]

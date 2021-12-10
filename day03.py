@@ -1,6 +1,6 @@
 import numpy as np
 
-power = open('files\day3.txt', 'r').read().rstrip().split('\n')
+power = open('files\day03.txt', 'r').read().rstrip().split('\n')
 clean_power = []
 for p in power:
     clean_power.append(list([int(ch) for ch in p]))

@@ -1,5 +1,5 @@
 import numpy as np
-h_positions = np.array([int(i) for i in open('files\day7.txt').readlines()[0].split(',')])
+h_positions = np.array([int(i) for i in open('files\day07.txt').readlines()[0].split(',')])
 distances = [np.abs(h_pos - np.median(h_positions)) for h_pos in h_positions]
 distances = sum(distances)
 print ("Part 1: ", distances)
