@@ -1,6 +1,6 @@
 from collections import defaultdict
 from os import truncate
-# inspired by https://github.com/jdgunter/aoc2021/blob/master/12/12.py while searching for DFS implementation
+# Reproduced from https://github.com/jdgunter/aoc2021/blob/master/12/12.py while searching for DFS implementation
 data = [l.strip().split('-') for l in open('files\day12.txt')]
 G = defaultdict(list)
 
